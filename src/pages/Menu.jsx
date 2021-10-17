@@ -5,7 +5,7 @@ function Menu() {
     return (
         <div>
           <OrdersList />
-        {/* <MenuCards /> */}
+        <MenuCards />
         </div>
     )
 }
