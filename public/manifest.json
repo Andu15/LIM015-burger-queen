@@ -1,15 +1,24 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Burger queen ",
+  "name": "Burger queen App",
   "icons": [
+        {
+      "src": "./images/logo144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
     {
-      "src": "favicon.svg",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./images/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0E0A17",
+  "background_color": "#0E0A17",
+  "related_applications": [],
+  "prefer_related_applications": false
 }

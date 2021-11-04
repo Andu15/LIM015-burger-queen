@@ -93,11 +93,16 @@ const OrderForm = ({handleDeleteProduct, handleMinusProduct, handlePlusProduct, 
       };
 
       addCollection(db, 'orders', newOrderObject)
-
+      
       //----------------------- Limpiar los datos del Formulario al enviar ----------------------------//
       form.resetFields()
       props.setSelectedProductsArray([])
 
+      swal({
+        text: "La orden ha sido enviada a la cocina",
+        icon: "success",
+        button: "ok",
+      })
     }
   };
 
